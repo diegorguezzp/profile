@@ -1,5 +1,5 @@
 body {
-  background-color: #F7F9FC
+  background-color: #B1E1FF;
 }
 
 h1 {
@@ -8,9 +8,9 @@ h1 {
   font-weight: 900;
 }
 
-h2 {
-  color: #7ECE90;
-  font-size: 25px;
+h2, .role {
+  color: #A66CFF;
+  font-size: 30px;
   font-weight: lighter;
   font-weight: 500;
 }
@@ -77,6 +77,7 @@ div {
 
 .fa-brands:hover{
   color: #383c71;
+  font-size: 30px;
 }
 
 @media (max-width: 960px) {
@@ -98,4 +99,17 @@ div {
   .container-title {
     width: 300px;
   }
+}
+
+
+h3{
+  color: #6B72E1;
+  font-size: 30px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+
+.fa-solid {
+  color: rgb(210, 87, 87);
+  margin-right: 10px;
 }
